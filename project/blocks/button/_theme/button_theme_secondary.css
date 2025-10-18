@@ -1,0 +1,15 @@
+.button_theme_secondary {
+  --bg-color: #ffcc4a;
+  --bg-color-hover: #181818;
+  --label-color: #181818;
+  --label-color-hover: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  .button_theme_primary {
+    --bg-color: #ffcc4a;
+    --bg-color-hover: #181818;
+    --label-color: #181818;
+    --label-color-hover: #fff;
+  }
+}
