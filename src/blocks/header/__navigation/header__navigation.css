@@ -1,0 +1,5 @@
+.header__navigation {
+  gap: 25px;
+
+  color: var(--color-white);
+}

@@ -1,5 +1,0 @@
-.button__ico {
-  fill: var(--ico-color);
-
-  transition: fill var(--animation-duration) linear;
-}

@@ -1,0 +1,6 @@
+.header__nav-item {
+  transition: color 0.3s linear;
+}
+.header__nav-item:hover {
+  color: var(--color-yellow);
+}

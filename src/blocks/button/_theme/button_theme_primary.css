@@ -1,0 +1,14 @@
+.button_theme_primary {
+  --bg-color: var(--color-yellow);
+  --bg-color-hover: #d6ab34;
+  --label-color: var(--color-black);
+  --label-color-hover: var(--color-black);
+}
+@media (prefers-color-scheme: dark) {
+  .button_theme_primary {
+    --bg-color: var(--color-yellow);
+    --bg-color-hover: #d6ab34;
+    --label-color: var(--color-black);
+    --label-color-hover: var(--color-black);
+  }
+}

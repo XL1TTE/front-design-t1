@@ -3,14 +3,18 @@ import { resolve } from 'path';
 import { fileURLToPath, URL } from 'node:url';
 
 export default defineConfig({
-  base: '/test21t/',
+  base: '/site/',
   build: {
     emptyOutDir: true,
     modulePreload: { polyfill: false },
     rollupOptions: {
       input: {
-        index: resolve(fileURLToPath(new URL('.', import.meta.url)), 'index.html'),
+        Index: resolve(fileURLToPath(new URL('.', import.meta.url)), 'Index.html'),
+        Home: resolve(fileURLToPath(new URL('.', import.meta.url)), 'Home.html'),
       },
     },
+  },
+  server: {
+    open: './Home',
   },
 });

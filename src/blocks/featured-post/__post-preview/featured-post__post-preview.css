@@ -1,0 +1,8 @@
+.featured-post__post-preview {
+  padding: 35px;
+
+  transition: background-color 0.15s linear;
+}
+.featured-post__post-preview:hover {
+  background-color: var(--color-light-yellow);
+}

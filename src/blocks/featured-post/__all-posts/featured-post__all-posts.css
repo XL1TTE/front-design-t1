@@ -1,0 +1,6 @@
+.featured-post__all-posts {
+  display: flex;
+  flex-direction: column;
+
+  gap: 30px;
+}

@@ -1,0 +1,6 @@
+.home-hero__content {
+  color: var(--color-white);
+  gap: 25px;
+
+  max-width: 800px;
+}

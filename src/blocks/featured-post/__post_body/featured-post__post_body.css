@@ -1,0 +1,6 @@
+.featured-post__post_body {
+  padding: 25px;
+  border: 2px var(--color-light-gray) solid;
+
+  gap: 20px;
+}

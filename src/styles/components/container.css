@@ -1,10 +1,13 @@
 .container {
+  height: 100%;
   width: 100%;
   padding-left: 8px;
   padding-right: 8px;
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
+
+  box-sizing: border-box;
 }
 
 @media (--sm-viewport) {
@@ -29,6 +32,6 @@
 
 @media (--xl-viewport) {
   .container {
-    max-width: 1312px;
+    max-width: 1280px;
   }
 }

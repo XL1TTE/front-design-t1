@@ -1,0 +1,6 @@
+.button__label {
+  font-size: 16px;
+  color: var(--color-black);
+
+  transition: color var(--animation-duration) linear;
+}
