@@ -1,0 +1,10 @@
+.testimonials__intro {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+  gap: 10px;
+
+  max-width: 350px;
+}

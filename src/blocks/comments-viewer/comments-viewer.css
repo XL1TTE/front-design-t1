@@ -1,0 +1,8 @@
+.comments-viewer {
+  display: grid;
+
+  grid-template-areas:
+    'message message'
+    'message message'
+    'profile nav';
+}

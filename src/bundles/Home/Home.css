@@ -14,8 +14,11 @@
 /* Button */
 @import '../../blocks/button/button.css';
 @import '../../blocks/button/__label/button__label.css';
+@import '../../blocks/button/__label/_type/button__label_type_path.css';
 
 @import '../../blocks/button/_theme/button_theme_primary.css';
+@import '../../blocks/button/_theme/button_theme_secondary.css';
+@import '../../blocks/button/_shape/button_shape_circular.css';
 
 /* Button End*/
 
@@ -47,6 +50,24 @@
 @import '../../blocks/author-card/__name/author-card__name.css';
 @import '../../blocks/author-card/__meta/author-card__meta.css';
 @import '../../blocks/author-card/__socials/author-card__socials.css';
+
+/* Comments Viewer */
+@import '../../blocks/comments-viewer/comments-viewer.css';
+@import '../../blocks/comments-viewer/__message/comments-viewer__message.css';
+@import '../../blocks/comments-viewer/__profile/comments-viewer__profile.css';
+@import '../../blocks/comments-viewer/__nav/comments-viewer__nav.css';
+@import '../../blocks/comments-viewer/__nav/_snap/comments-viewer__nav_snap-end.css';
+
+/* Input */
+@import '../../blocks/input/input.css';
+
+/* User profile */
+
+@import '../../blocks/user-profile/user-profile.css';
+@import '../../blocks/user-profile/__photo/user-profile__photo.css';
+@import '../../blocks/user-profile/__info-block/user-profile__info-block.css';
+@import '../../blocks/user-profile/__name/user-profile__name.css';
+@import '../../blocks/user-profile/__location/user-ptofile__location.css';
 
 /* Header */
 @import '../../blocks/header/header.css';
@@ -111,3 +132,27 @@
 /* List of logos */
 @import '../../blocks/list-of-logos/list-of-logos.css';
 @import '../../blocks/list-of-logos/__container/list-of-logos__container.css';
+
+/* Testimonials */
+@import '../../blocks/testimonials/testimonials.css';
+@import '../../blocks/testimonials/__container/testimonials__container.css';
+@import '../../blocks/testimonials/__content/testimonials__content.css';
+@import '../../blocks/testimonials/__comments/testimonials__comments.css';
+@import '../../blocks/testimonials/__intro/testimonials__intro.css';
+@import '../../blocks/testimonials/__intro_header/testimonials__intro_header.css';
+@import '../../blocks/testimonials/__nav-button/testimonials__nav-button.css';
+
+/* Join Team */
+@import '../../blocks/join-team/join-team.css';
+@import '../../blocks/join-team/__container/join-team__container.css';
+@import '../../blocks/join-team/__content/join-team__content.css';
+@import '../../blocks/join-team/__button/join-team__button.css';
+
+/* Footer */
+@import '../../blocks/footer/footer.css';
+@import '../../blocks/footer/__container/footer__container.css';
+@import '../../blocks/footer/__cta/footer__cta.css';
+@import '../../blocks/footer/__subcribe-form/footer__subcribe-form.css';
+@import '../../blocks/footer/__mail-input/footer__mail-input.css';
+@import '../../blocks/footer/__contact-info/footer__contact-info.css';
+@import '../../blocks/footer/__socials/footer__socials.css';

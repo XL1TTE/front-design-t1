@@ -1,8 +1,6 @@
-.choose-category__container {
+.join-team__container {
   display: flex;
   flex-direction: column;
 
   align-items: center;
-
-  gap: 50px;
 }

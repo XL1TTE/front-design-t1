@@ -1,7 +1,4 @@
-.about-us__container {
+.user-profile__info-block {
   display: flex;
-
   flex-direction: column;
-
-  gap: 0px;
 }

@@ -1,0 +1,10 @@
+.footer__cta {
+  display: flex;
+  flex-direction: row;
+
+  gap: 50px;
+  padding: 64px;
+
+  color: var(--color-white);
+  background-color: rgba(255, 255, 255, 0.05);
+}

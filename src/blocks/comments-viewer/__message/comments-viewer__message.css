@@ -1,0 +1,3 @@
+.comments-viewer__message {
+  grid-area: message;
+}

@@ -1,0 +1,8 @@
+.user-ptofile__location {
+  color: var(--color-medium-gray);
+
+  font-size: 16px;
+  font-weight: 100;
+
+  line-height: 28px;
+}

@@ -1,0 +1,12 @@
+.footer__socials {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+
+  gap: 25px;
+}
+
+.footer__socials path {
+  fill: var(--color-medium-gray);
+}

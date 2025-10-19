@@ -1,0 +1,7 @@
+.comments-viewer__nav {
+  grid-area: nav;
+
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}

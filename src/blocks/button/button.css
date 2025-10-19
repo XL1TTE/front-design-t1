@@ -14,7 +14,7 @@
   justify-content: center;
 
   gap: 5px;
-  padding: 5px;
+  padding: 10px;
 
   background-color: var(--bg-color);
 
@@ -22,9 +22,6 @@
 }
 
 .button:hover {
-  background-color: var(--bg-color-hover);
-
-  .button__label {
-    color: var(--label-color-hover);
-  }
+  --bg-color: var(--bg-color-hover);
+  --label-color: var(--label-color-hover);
 }

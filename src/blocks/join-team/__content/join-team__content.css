@@ -1,0 +1,13 @@
+.join-team__content {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  gap: 25px;
+
+  max-width: 460px;
+}

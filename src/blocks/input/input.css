@@ -1,0 +1,24 @@
+.input {
+  --bg-color: transparent;
+  --placeholder-color: var(--color-dark-gray);
+  --text-color: var(--color-white);
+
+  --border-color: var(--color-dark-gray);
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: start;
+
+  padding: 10px 20px;
+
+  border: 1px var(--border-color) solid;
+
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.input::placeholder {
+  color: var(--placeholder-color);
+}
