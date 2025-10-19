@@ -1,0 +1,9 @@
+.about-us__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px;
+
+  gap: 25px;
+
+  background-color: var(--color-lavender);
+}

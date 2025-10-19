@@ -1,0 +1,30 @@
+.author-card {
+  --bg-color: var(--color-light-gray);
+  --bg-color-hover: var(--color-light-yellow);
+
+  --name-color: var(--color-black);
+  --name-color-hover: var(--color-black);
+
+  --meta-color: var(--color-medium-gray);
+  --meta-color-hover: var(--color-medium-gray);
+
+  --anim-duration: 0.3s;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 25px;
+  gap: 10px;
+
+  background-color: var(--bg-color);
+
+  transition: background-color var(--anim-duration) linear;
+}
+.author-card:hover {
+  --bg-color: var(--bg-color-hover);
+  --name-color: var(--name-color-hover);
+  --meta-color: var(--meta-color-hover);
+}

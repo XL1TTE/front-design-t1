@@ -1,0 +1,9 @@
+.category-card__label {
+  color: var(--label-color);
+
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 36px;
+
+  transition: color var(--anim-duration) linear;
+}

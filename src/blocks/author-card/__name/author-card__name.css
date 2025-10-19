@@ -1,0 +1,7 @@
+.author-card__name {
+  color: var(--name-color);
+
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 36px;
+}

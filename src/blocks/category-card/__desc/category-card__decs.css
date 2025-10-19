@@ -1,0 +1,10 @@
+.category-card__decs {
+  color: var(--desc-color);
+
+  font-size: 16px;
+  font-weight: 100;
+
+  line-height: 28px;
+
+  transition: color var(--anim-duration) linear;
+}

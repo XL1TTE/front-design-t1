@@ -1,0 +1,6 @@
+.about-us__read-more-link {
+  color: var(--color-purple);
+}
+.about-us__read-more-link:hover {
+  cursor: pointer;
+}

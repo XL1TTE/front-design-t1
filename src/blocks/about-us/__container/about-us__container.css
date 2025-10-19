@@ -1,0 +1,9 @@
+.about-us__container {
+  display: flex;
+
+  flex-direction: column;
+
+  padding-bottom: 124px;
+
+  gap: 0px;
+}

@@ -1,0 +1,15 @@
+.special-post__content {
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+
+  max-width: 800px;
+
+  right: 0px;
+  bottom: 0px;
+  gap: 30px;
+  padding: 80px;
+
+  background-color: var(--color-white);
+}

@@ -1,0 +1,10 @@
+.choose-category__container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 50px;
+
+  padding-bottom: 124px;
+}

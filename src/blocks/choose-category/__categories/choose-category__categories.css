@@ -1,0 +1,8 @@
+.choose-category__categories {
+  display: flex;
+  flex-direction: row;
+
+  height: fit-content;
+
+  gap: 32px;
+}
