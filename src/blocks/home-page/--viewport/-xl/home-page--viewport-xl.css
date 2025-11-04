@@ -1,0 +1,8 @@
+@media (--xl-viewport) {
+  .header__navigation {
+    gap: 25px;
+  }
+  .featured-post__post-preview {
+    padding: 35px;
+  }
+}

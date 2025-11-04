@@ -1,6 +1,5 @@
 .container {
   height: 100%;
-  width: 100%;
   padding-left: 8px;
   padding-right: 8px;
   margin-right: auto;
@@ -8,6 +7,12 @@
   max-width: 100%;
 
   box-sizing: content-box;
+}
+
+@media (--vsm-viewport) {
+  .container {
+    max-width: 418px;
+  }
 }
 
 @media (--sm-viewport) {

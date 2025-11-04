@@ -1,0 +1,4 @@
+.list-of-authors__scrollabe-list {
+  max-width: 520px;
+  overflow: auto;
+}

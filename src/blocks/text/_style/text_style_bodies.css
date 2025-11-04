@@ -16,3 +16,14 @@
   font-weight: 250;
   line-height: 20px;
 }
+
+@media (--vsm-viewport) {
+  .text_style_body1 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .text_style_body2 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

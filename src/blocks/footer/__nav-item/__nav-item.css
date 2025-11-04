@@ -1,0 +1,6 @@
+.footer__nav-item {
+  transition: color 0.3s linear;
+}
+.footer__nav-item:hover {
+  color: var(--color-yellow);
+}

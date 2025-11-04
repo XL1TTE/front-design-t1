@@ -1,0 +1,31 @@
+@media (--md-viewport) {
+  .header__navigation {
+    gap: 25px;
+  }
+  .header__subscribe_button {
+    width: 180px;
+    height: 56px;
+  }
+  .featured-post__post-preview {
+    padding: 24px;
+  }
+  .special-post__content {
+    max-width: 640px;
+    padding: 50px;
+  }
+  .about-us__content {
+    padding: 52px;
+  }
+  .testimonials__content {
+    gap: 32px;
+    padding: 48px;
+  }
+  .list-of-logos__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__subcribe-form {
+    align-items: center;
+    flex-direction: row;
+  }
+}

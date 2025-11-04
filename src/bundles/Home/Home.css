@@ -137,6 +137,7 @@
 @import '../../blocks/testimonials/testimonials.css';
 @import '../../blocks/testimonials/__container/testimonials__container.css';
 @import '../../blocks/testimonials/__content/testimonials__content.css';
+@import '../../blocks/testimonials/__separator/testimonials__separator.css';
 @import '../../blocks/testimonials/__comments/testimonials__comments.css';
 @import '../../blocks/testimonials/__intro/testimonials__intro.css';
 @import '../../blocks/testimonials/__intro_header/testimonials__intro_header.css';
@@ -151,8 +152,20 @@
 /* Footer */
 @import '../../blocks/footer/footer.css';
 @import '../../blocks/footer/__container/footer__container.css';
+@import '../../blocks/footer/__nav/footer__nav.css';
+@import '../../blocks/footer/__nav-options/footer__nav-options.css';
+@import '../../blocks/footer/__nav-item/__nav-item.css';
+@import '../../blocks/footer/__logo/footer__logo.css';
 @import '../../blocks/footer/__cta/footer__cta.css';
 @import '../../blocks/footer/__subcribe-form/footer__subcribe-form.css';
+@import '../../blocks/footer/__subscribe-button/footer__subscribe-button.css';
 @import '../../blocks/footer/__mail-input/footer__mail-input.css';
 @import '../../blocks/footer/__contact-info/footer__contact-info.css';
 @import '../../blocks/footer/__socials/footer__socials.css';
+
+/* Viewports compatibility */
+@import '../../blocks/home-page/--viewport/-vsm/home-page--viewport-vsm.css';
+@import '../../blocks/home-page/--viewport/-sm/home-page--viewport-sm.css';
+@import '../../blocks/home-page/--viewport/-md/home-page--viewport-md.css';
+@import '../../blocks/home-page/--viewport/-lg/home-page--viewport-lg.css';
+@import '../../blocks/home-page/--viewport/-xl/home-page--viewport-xl.css';

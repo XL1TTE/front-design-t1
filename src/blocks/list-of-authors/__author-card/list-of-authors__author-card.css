@@ -1,4 +1,4 @@
 .list-of-authors__author-card {
-  width: 296px;
+  min-width: 296px;
   height: 324px;
 }

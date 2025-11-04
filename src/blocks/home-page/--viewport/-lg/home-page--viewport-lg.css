@@ -1,0 +1,24 @@
+@media (--lg-viewport) {
+  .featured-post__post-preview {
+    padding: 32px;
+  }
+  .about-us__content {
+    padding: 80px;
+  }
+  .footer__mail-input {
+    width: 320px;
+  }
+  .footer__subscribe-button {
+    width: 180px;
+  }
+
+  .special-post__content {
+    max-width: 800px;
+    padding: 80px;
+  }
+
+  .testimonials__content {
+    gap: 74px;
+    padding: 80px;
+  }
+}
