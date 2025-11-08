@@ -1,9 +1,9 @@
 .footer__cta {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
-  gap: 50px;
-  padding: 64px;
+  gap: 10px;
+  padding: 16px;
 
   color: var(--color-white);
   background-color: rgba(255, 255, 255, 0.05);

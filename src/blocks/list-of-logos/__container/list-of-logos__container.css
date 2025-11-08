@@ -1,8 +1,9 @@
 .list-of-logos__container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
-  justify-content: space-between;
+  gap: 14px;
+
   align-items: center;
 
   padding-top: 100px;

@@ -48,8 +48,13 @@
   .footer__nav {
     justify-content: space-between;
   }
-
+  .footer__nav-options {
+    display: flex;
+  }
   .footer__cta {
     padding: 64px;
+  }
+  .footer__contact-info {
+    flex-direction: row;
   }
 }

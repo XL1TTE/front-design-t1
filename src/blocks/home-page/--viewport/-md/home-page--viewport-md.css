@@ -1,10 +1,19 @@
 @media (--md-viewport) {
   .header__navigation {
+    display: flex;
     gap: 25px;
   }
   .header__subscribe_button {
     width: 180px;
     height: 56px;
+  }
+
+  .home-hero__content {
+    max-width: 70%;
+  }
+
+  .featured-post__container {
+    flex-direction: row;
   }
   .featured-post__post-preview {
     padding: 24px;
@@ -13,8 +22,10 @@
     max-width: 640px;
     padding: 50px;
   }
+
   .about-us__content {
-    padding: 52px;
+    flex-direction: row;
+    padding: 64px;
   }
   .testimonials__content {
     gap: 32px;
@@ -22,10 +33,11 @@
   }
   .list-of-logos__container {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
   }
   .footer__subcribe-form {
-    align-items: center;
+    justify-content: start;
     flex-direction: row;
   }
 }

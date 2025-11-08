@@ -71,7 +71,6 @@
 
 /* Header */
 @import '../../blocks/header/header.css';
-@import '../../blocks/header/_style/header_style_default.css';
 @import '../../blocks/header/__container/header__container.css';
 @import '../../blocks/header/__main-content/header__main-content.css';
 @import '../../blocks/header/__logo/header__logo.css';

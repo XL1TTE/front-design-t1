@@ -1,9 +1,10 @@
 .testimonials__content {
   display: flex;
-  flex-direction: row;
 
-  gap: 74px;
-  padding: 80px;
+  flex-direction: column;
+
+  gap: 10px;
+  padding: 48px 16px;
   /* grid-template-columns: 0.45fr 0.55fr; */
 
   background-color: var(--color-light-yellow);

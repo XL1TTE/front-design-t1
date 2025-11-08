@@ -1,4 +1,4 @@
 .header__subscribe_button {
-  width: 180px;
-  height: 56px;
+  width: fit-content;
+  height: 42px;
 }

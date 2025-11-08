@@ -1,10 +1,10 @@
-.text_style_body1 {
-  font-size: 16px;
+.text_style_b1 {
+  font-size: 12px;
   font-weight: 100;
 
-  line-height: 28px;
+  line-height: 18px;
 }
-.text_style_body2 {
+.text_style_b2 {
   font-size: 14px;
   font-weight: 100;
 
@@ -17,13 +17,20 @@
   line-height: 20px;
 }
 
-@media (--vsm-viewport) {
-  .text_style_body1 {
-    font-size: 12px;
-    line-height: 18px;
+@media (--md-viewport) {
+  .text_style_b1 {
+    font-size: 16px;
+
+    line-height: 28px;
   }
-  .text_style_body2 {
+  .text_style_b2 {
     font-size: 14px;
+
+    line-height: 20px;
+  }
+
+  .text_style_label {
+    font-size: 16px;
     line-height: 20px;
   }
 }

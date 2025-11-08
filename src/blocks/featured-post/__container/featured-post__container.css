@@ -1,7 +1,7 @@
 .featured-post__container {
   display: flex;
-  flex-direction: row;
-  gap: 35px;
+  flex-direction: column;
+  gap: 10px;
 
   padding-top: 124px;
   padding-bottom: 124px;

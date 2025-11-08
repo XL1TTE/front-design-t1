@@ -1,3 +1,4 @@
 .about-us__sub-topic {
+  flex: 1;
   gap: 15px;
 }

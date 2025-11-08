@@ -1,3 +1,5 @@
 .special-post__primary-image {
-  padding-left: 16px;
+  /* padding-left: 16px; */
+  height: 80%;
+  object-fit: cover;
 }

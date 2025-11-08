@@ -1,31 +1,23 @@
 .user-profile__name {
+  display: none;
+
   color: var(--color-black);
 
-  font-size: 24px;
+  font-size: 16px;
   font-weight: bold;
-  line-height: 32px;
+  line-height: 20px;
 }
 
-@media (--sm-viewport) {
+@media (--vsm-viewport) {
   .user-profile__name {
+    display: block;
     font-size: 16px;
     line-height: 20px;
   }
 }
 
 @media (--md-viewport) {
-  .user-profile__name {
-    font-size: 24px;
-    line-height: 32px;
-  }
-}
-@media (--lg-viewport) {
-  .user-profile__name {
-    font-size: 24px;
-    line-height: 32px;
-  }
-}
-@media (--xl-viewport) {
+  display: block;
   .user-profile__name {
     font-size: 24px;
     line-height: 32px;

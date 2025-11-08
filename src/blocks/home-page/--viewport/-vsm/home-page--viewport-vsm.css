@@ -1,12 +1,9 @@
 @media (--vsm-viewport) {
-  .header__logo {
-    display: none;
-  }
   .header__container {
-    justify-content: end;
-    padding-right: 15px;
+    justify-content: space-between;
   }
   .header__navigation {
+    display: none;
     gap: 5px;
   }
   .header__subscribe_button {
@@ -35,28 +32,18 @@
     padding: 32px;
     gap: 25px;
   }
-  .testimonials__content {
-    gap: 16px;
-    padding: 24px;
-    flex-direction: column;
-  }
   .testimonials__intro {
     gap: 0px;
   }
-  .testimonials__separator {
-    display: none;
-  }
   .testimonials__comments {
-    gap: 25px;
+    gap: 10px;
   }
+
   .list-of-logos__container {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(2, auto);
     gap: 25px;
-  }
-  .footer__logo {
-    display: none;
   }
   .footer__nav {
     justify-content: center;

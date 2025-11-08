@@ -1,5 +1,5 @@
 .footer__nav-options {
-  display: flex;
+  display: none;
   flex-direction: row;
   align-items: center;
   gap: 25px;

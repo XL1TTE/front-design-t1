@@ -1,32 +1,58 @@
 .text_style_h1 {
-  font-size: 48px;
-  font-weight: bold;
-  line-height: 64px;
-}
-.text_style_h2 {
-  font-size: 36px;
-  font-weight: bold;
-  line-height: 48px;
-}
-.text_style_h3 {
   font-size: 28px;
   font-weight: bold;
-  line-height: 36px;
-}
-.text_style_h4 {
-  font-size: 24px;
-  font-weight: bold;
   line-height: 32px;
 }
-.text_style_h5 {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 32px;
-}
-.text_style_h6 {
-  font-size: 16px;
+.text_style_h2 {
+  font-size: 18px;
   font-weight: bold;
   line-height: 24px;
+}
+.text_style_h3 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.text_style_h4 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+}
+.text_style_h5 {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+}
+.text_style_h6 {
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 14px;
+}
+@media (--vsm-viewport) {
+  .text_style_h1 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .text_style_h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .text_style_h3 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .text_style_h4 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .text_style_h5 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .text_style_h6 {
+    font-size: 10px;
+    line-height: 14px;
+  }
 }
 
 @media (--sm-viewport) {
@@ -53,32 +79,6 @@
   .text_style_h6 {
     font-size: 14px;
     line-height: 18px;
-  }
-}
-@media (--vsm-viewport) {
-  .text_style_h1 {
-    font-size: 32px;
-    line-height: 38px;
-  }
-  .text_style_h2 {
-    font-size: 20px;
-    line-height: 28px;
-  }
-  .text_style_h3 {
-    font-size: 18px;
-    line-height: 24px;
-  }
-  .text_style_h4 {
-    font-size: 16px;
-    line-height: 20px;
-  }
-  .text_style_h5 {
-    font-size: 14px;
-    line-height: 16px;
-  }
-  .text_style_h6 {
-    font-size: 10px;
-    line-height: 14px;
   }
 }
 
