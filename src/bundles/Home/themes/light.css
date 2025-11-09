@@ -22,6 +22,9 @@
   --color-author-card-label-hover: var(--color-black);
   --color-author-card-desc-hover: var(--color-black);
 
+  --color-featured-post-preview-bg: var(--color-white);
+  --color-featured-post-preview-bg-hover: var(--color-light-yellow);
+
   --color-special-post-bg: var(--color-white);
 
   --color-logos-fill: var(--color-black);

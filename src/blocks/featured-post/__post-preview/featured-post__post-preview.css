@@ -1,8 +1,10 @@
 .featured-post__post-preview {
   padding: 35px;
 
+  background-color: var(--color-featured-post-preview-bg);
+
   transition: background-color 0.15s linear;
 }
 .featured-post__post-preview:hover {
-  background-color: var(--color-light-yellow);
+  background-color: var(--color-featured-post-preview-bg-hover);
 }

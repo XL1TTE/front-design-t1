@@ -22,6 +22,9 @@
   --color-author-card-label-hover: #cdcdcd;
   --color-author-card-desc-hover: #cdcdcd;
 
+  --color-featured-post-preview-bg: transparent;
+  --color-featured-post-preview-bg-hover: var(--color-blue-purple);
+
   --color-special-post-bg: var(--color-primary);
 
   --color-logos-fill: var(--color-lavender);
