@@ -1,0 +1,9 @@
+.author-card__social-link {
+  fill: var(--color-logos-fill) !important;
+  /* stroke: var(--color-logos-fill); */
+  path: var(--color-logos-fill);
+
+  * {
+    fill: inherit !important;
+  }
+}

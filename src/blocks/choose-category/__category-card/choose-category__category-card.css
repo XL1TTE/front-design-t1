@@ -2,4 +2,11 @@
   height: 228px;
 
   min-width: 296px;
+
+  --bg-color: var(--color-category-card-bg);
+  --label-color: var(--color-category-card-label);
+  --desc-color: var(--color-category-card-desc);
+  --bg-color-hover: var(--color-category-card-bg-hover);
+  --label-color-hover: var(--color-category-card-label-hover);
+  --desc-color-hover: var(--color-category-card-desc-hover);
 }

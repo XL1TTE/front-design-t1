@@ -2,8 +2,17 @@
   .featured-post__post-preview {
     padding: 32px;
   }
+
+  .home-hero {
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
   .about-us__content {
     padding: 80px;
+  }
+  .footer__cta {
+    flex-direction: row;
+    align-items: center;
   }
   .footer__mail-input {
     width: 320px;
@@ -18,7 +27,7 @@
   }
 
   .testimonials__content {
-    gap: 74px;
-    padding: 80px;
+    gap: 50px;
+    padding: 62px;
   }
 }

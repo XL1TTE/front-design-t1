@@ -1,4 +1,11 @@
 .list-of-authors__author-card {
   min-width: 296px;
   height: 324px;
+
+  --bg-color: var(--color-author-card-bg);
+  --name-color: var(--color-author-card-label);
+  --meta-color: var(--color-author-card-desc);
+  --bg-color-hover: var(--color-author-card-bg-hover);
+  --name-color-hover: var(--color-author-card-label-hover);
+  --meta-color-hover: var(--color-author-card-desc-hover);
 }

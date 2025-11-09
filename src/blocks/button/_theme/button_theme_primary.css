@@ -1,14 +1,6 @@
 .button_theme_primary {
-  --bg-color: var(--color-yellow);
-  --bg-color-hover: #d6ab34;
-  --label-color: var(--color-black);
-  --label-color-hover: var(--color-black);
-}
-@media (prefers-color-scheme: dark) {
-  .button_theme_primary {
-    --bg-color: var(--color-yellow);
-    --bg-color-hover: #d6ab34;
-    --label-color: var(--color-black);
-    --label-color-hover: var(--color-black);
-  }
+  --bg-color: var(--pr-button-bg-color);
+  --bg-color-hover: var(--pr-button-bg-color-hover);
+  --label-color: var(--pr-button-label-color);
+  --label-color-hover: var(--pr-button-label-color-hover);
 }

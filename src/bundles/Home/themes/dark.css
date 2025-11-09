@@ -1,0 +1,37 @@
+:root {
+  color-scheme: dark;
+
+  --color-primary: var(--color-black);
+  --color-secondary: var(--color-white);
+
+  --color-about-us-content-background: var(--color-dark-purple);
+
+  --color-about-us-link: #9570d8;
+
+  --color-category-card-bg: var(--color-dark-purple);
+  --color-category-card-label: #cdcdcd;
+  --color-category-card-desc: #cdcdcd;
+  --color-category-card-bg-hover: var(--color-blue-purple);
+  --color-category-card-label-hover: #cdcdcd;
+  --color-category-card-desc-hover: #cdcdcd;
+
+  --color-author-card-bg: var(--color-dark-purple);
+  --color-author-card-label: #cdcdcd;
+  --color-author-card-desc: #cdcdcd;
+  --color-author-card-bg-hover: var(--color-blue-purple);
+  --color-author-card-label-hover: #cdcdcd;
+  --color-author-card-desc-hover: #cdcdcd;
+
+  --color-special-post-bg: var(--color-primary);
+
+  --color-logos-fill: var(--color-lavender);
+
+  --color-testimonials-content-bg: var(--color-dark-purple);
+
+  --color-footer-bg: var(--color-dark-purple);
+
+  --pr-button-bg-color: var(--color-blue-purple);
+  --pr-button-bg-color-hover: var(--color-dark-purple);
+  --pr-button-label-color: var(--color-lavender);
+  --pr-button-label-color-hover: var(--color-lavender);
+}

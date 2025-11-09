@@ -50,6 +50,7 @@
 @import '../../blocks/author-card/__name/author-card__name.css';
 @import '../../blocks/author-card/__meta/author-card__meta.css';
 @import '../../blocks/author-card/__socials/author-card__socials.css';
+@import '../../blocks/author-card/__social-link/author-card__social-link.css';
 
 /* Comments Viewer */
 @import '../../blocks/comments-viewer/comments-viewer.css';
@@ -131,6 +132,7 @@
 /* List of logos */
 @import '../../blocks/list-of-logos/list-of-logos.css';
 @import '../../blocks/list-of-logos/__container/list-of-logos__container.css';
+@import '../../blocks/list-of-logos/__svg-logo/list-of-logos__svg-logo.css';
 
 /* Testimonials */
 @import '../../blocks/testimonials/testimonials.css';

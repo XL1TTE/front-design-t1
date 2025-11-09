@@ -1,5 +1,5 @@
 .about-us__read-more-link {
-  color: var(--color-purple);
+  color: var(--color-about-us-link);
 }
 .about-us__read-more-link:hover {
   cursor: pointer;

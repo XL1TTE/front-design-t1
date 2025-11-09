@@ -1,0 +1,9 @@
+.list-of-logos__svg-logo {
+  fill: var(--color-logos-fill) !important;
+  /* stroke: var(--color-logos-fill); */
+  path: var(--color-logos-fill);
+
+  * {
+    fill: inherit !important;
+  }
+}
